@@ -1,0 +1,18 @@
+[
+{
+    "name":             "GridAngle",
+    "shortDescription": "Angle for parallel lines of grid.",
+    "type":             "double",
+    "units":            "deg",
+    "min":              -360.0,
+    "max":              360.0,
+    "decimalPlaces":    1,
+    "defaultValue":     0
+},
+{
+    "name":             "FlyAlternateTransects",
+    "shortDescription": "Fly every other transect in each pass.",
+    "type":             "bool",
+    "defaultValue":     false
+}
+]
