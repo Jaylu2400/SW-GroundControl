@@ -69,7 +69,11 @@ enum DockWidgetTypes {
     ONBOARD_FILES,
     HIL_CONFIG,
     ANALYZE,
+<<<<<<< HEAD
     TESTA
+=======
+    TEST
+>>>>>>> bd86246628be209be494b59274f978c49ad91497
 };
 
 static const char *rgDockWidgetNames[] = {
@@ -78,7 +82,11 @@ static const char *rgDockWidgetNames[] = {
     "Onboard Files",
     "HIL Config",
     "Analyze",
+<<<<<<< HEAD
     "TESTA"
+=======
+    "TEST"
+>>>>>>> bd86246628be209be494b59274f978c49ad91497
 };
 
 #define ARRAY_SIZE(ARRAY) (sizeof(ARRAY) / sizeof(ARRAY[0]))
@@ -339,7 +347,11 @@ bool MainWindow::_createInnerDockWidget(const QString& widgetName)
             case ANALYZE:
                 widget = new Linecharts(widgetName, action, _mavLinkDecoderInstance(), this);
                 break;
+<<<<<<< HEAD
             case TESTA:
+=======
+            case TEST:
+>>>>>>> bd86246628be209be494b59274f978c49ad91497
                 widget = new Linecharts(widgetName, action, _mavLinkDecoderInstance(), this);
                 break;
         }
